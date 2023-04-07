@@ -1,0 +1,102 @@
+a{
+    text-decoration: none;
+}
+body{
+    margin: auto;
+    padding: auto;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.outer{
+    min-height: 100%;
+    width:100%;
+    
+}
+header , nav{
+    height: 150px;
+    width: 100%;
+    
+}
+#logo{
+ 
+    height: 40px;
+    width: 15%;
+    background-color: aquamarine;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    overflow: hidden;
+    font-variant: unset;
+}
+#menu{
+    overflow: hidden;
+    width: 85%;
+    height: 50px;
+    background-color: aquamarine;
+    float: right;
+    text-align: center;
+   
+}
+#menu ul{
+ text-decoration: none;
+ list-style: none;
+ margin: 0;
+ padding: 0%;
+padding-left: 70px;
+}
+#menu li {
+    display: inline-block;
+    font-size: 25px;
+}
+#menu a{
+    display: block;
+padding: 4px 20px;
+color: aliceblue;
+font-weight: bold;
+
+}
+.btn{
+    height: 40px;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    background-color: white;
+    width: 150px;
+    margin: 5px;
+    font-size: 20px;
+}
+.main{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+min-height:500px;
+background-color: aqua;
+margin-top: -101px;
+}
+.cout{
+    border-top: 100px solid red;
+    border-bottom: 100px solid black;
+    border-left: 100px solid blueviolet;
+    /* transform:matrix3d(45deg); */
+    /* transform: perspective(180deg); */
+    /* transform: rotate(45deg); */
+    /* transform: scale(180deg); */
+    /* transform: scale3d(45deg);
+    transform: scaleX(45deg);
+    transform: scaleY(45deg); */
+    /* transform: scaleZ(45deg); */
+    /* transform: scaleX(45deg); */
+    /* transform: scaleY(45deg); */
+    /* transform: scaleZ(45deg); */
+    /* transform: translate3d(90deg); */
+    /* transform: translate(45deg); */
+    /* transform: translateX(45deg); */
+    /* transform: translateZ(45deg); */
+    /* transform: translateY(45deg); */
+    /* transform: skewX(180deg); */
+    /* transform: rotateZ(90deg); */
+    border-right: 100px solid wheat;
+   height: 650px;
+    /* overflow: scroll; */
+}
